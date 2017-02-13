@@ -10,8 +10,8 @@
 		757376971E51D7E800ACEE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757376961E51D7E800ACEE8C /* AppDelegate.swift */; };
 		757376991E51D7E800ACEE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757376981E51D7E800ACEE8C /* ViewController.swift */; };
 		7573769C1E51D7E800ACEE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7573769A1E51D7E800ACEE8C /* Main.storyboard */; };
-		7573769E1E51D7E800ACEE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7573769D1E51D7E800ACEE8C /* Assets.xcassets */; };
 		757376A11E51D7E800ACEE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7573769F1E51D7E800ACEE8C /* LaunchScreen.storyboard */; };
+		75B446411E51DF7000974CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B446401E51DF7000974CAF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		757376961E51D7E800ACEE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		757376981E51D7E800ACEE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7573769B1E51D7E800ACEE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7573769D1E51D7E800ACEE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757376A01E51D7E800ACEE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757376A21E51D7E800ACEE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B446401E51DF7000974CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 				757376961E51D7E800ACEE8C /* AppDelegate.swift */,
 				757376981E51D7E800ACEE8C /* ViewController.swift */,
 				7573769A1E51D7E800ACEE8C /* Main.storyboard */,
-				7573769D1E51D7E800ACEE8C /* Assets.xcassets */,
 				7573769F1E51D7E800ACEE8C /* LaunchScreen.storyboard */,
+				75B446401E51DF7000974CAF /* Assets.xcassets */,
 				757376A21E51D7E800ACEE8C /* Info.plist */,
 			);
 			path = JYDouYuZB;
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					757376921E51D7E800ACEE8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CZD89388LH;
 					};
 				};
 			};
@@ -123,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				757376A11E51D7E800ACEE8C /* LaunchScreen.storyboard in Resources */,
-				7573769E1E51D7E800ACEE8C /* Assets.xcassets in Resources */,
+				75B446411E51DF7000974CAF /* Assets.xcassets in Resources */,
 				7573769C1E51D7E800ACEE8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +252,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JYDouYuZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Future-Time.JYDouYuZB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -262,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JYDouYuZB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Future-Time.JYDouYuZB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -288,6 +295,7 @@
 				757376A71E51D7E800ACEE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
